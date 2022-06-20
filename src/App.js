@@ -1,10 +1,11 @@
 import React from "react";
-import Header from "./components/Header.js";
+import "./App.css"
+import Slider from "./components/slider/Slider"
 
 export default function App() {
   return (
-    <div className="card--main-container">
-      <Header />
-    </div>
+    <>
+    <Slider />
+    </>
   );
 }
